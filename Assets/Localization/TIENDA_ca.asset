@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: TIENDA_ca
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ca
+  m_SharedData: {fileID: 11400000, guid: 5d4d217654be51840a60671937a7cb0c, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 130681901056
+    m_Localized: RULETA DE LA FORTUNA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 835849261056
+    m_Localized: COMPRA DE COMODINS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3884344905728
+    m_Localized: PUBLI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4078553763840
+    m_Localized: GIRA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11731439616
+    m_Localized: "Si se t'oblida la seq\xFC\xE8ncia de colors, demana-li que te la
+      repetisca... nom\xE9s una vegada.\r"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4933382279168
+    m_Localized: "Si perds, pots recuperar la teua partida on vas fallar... nom\xE9s
+      una vegada."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5744917188608
+    m_Localized: "Rebaixes! Durant 6 minuts necessitar\xE0s menys punts per a desbloquejar
+      opcions de joc. S\xF3n acumulables!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 11431739101184
+    m_Localized: "RECOMPENSA DI\xC0RIA"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12450564902912
+    m_Localized: REPETIR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13044620955648
+    m_Localized: CONTINUAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13046986543104
+    m_Localized: REBAIXES
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

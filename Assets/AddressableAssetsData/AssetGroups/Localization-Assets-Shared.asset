@@ -53,6 +53,14 @@ MonoBehaviour:
     m_Address: Assets/Localization/puntuaciones panel Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: 5d4d217654be51840a60671937a7cb0c
+    m_Address: Assets/Localization/TIENDA Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 3b18c8b33b2fc65428fd95078c0969a5
+    m_Address: Assets/Localization/Sure Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 0f237cd14b2b87349ad31195e5fc2156, type: 2}
   m_SchemaSet:
