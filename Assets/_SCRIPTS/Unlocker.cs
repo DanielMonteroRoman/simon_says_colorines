@@ -492,6 +492,7 @@ public class Unlocker : MonoBehaviour
                 break;
             case (Level.Seven):
                 eight =  Mathf.FloorToInt(eight * 0.75f);
+                nextUnblock.text = eight.ToString();
                 if (highScore >= seven)
                 {
                     notif.NotificationOn();
