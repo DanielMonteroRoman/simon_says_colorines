@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Localization-Assets-Shared
+  m_EditorClassIdentifier: 
+  m_GroupName: Localization-Assets-Shared
+  m_Data:
+    m_SerializedData: []
+  m_GUID: ceb933cef44a50345988dfd838087af2
+  m_SerializeEntries:
+  - m_GUID: fbe01fffd6d41cf41a4ef8e89b16a934
+    m_Address: Assets/Localization/botones Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: cfb3e68ee9e194640a8bb1b97a8090f3
+    m_Address: Assets/Localization/Game Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 1224f8ef275ecc141aacf56eab2b8e14
+    m_Address: Assets/Localization/options panel Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 9a8b88e38ac548847884f7377a8af90d
+    m_Address: Assets/Localization/Montero Games Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 9e69eaa5f9e34da40a29eb18afaf0543
+    m_Address: Assets/Localization/BIG PANEL Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 3c368d9f5e238664b996a20a6bb76f90
+    m_Address: Assets/Localization/INFO PANEL Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: c188688c7e2488746a1f48d199bd8380
+    m_Address: Assets/Localization/IMAGEN TUTO Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 18616998c95617c4aa0822242583f086
+    m_Address: Assets/Localization/flags Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 9c9f5e2e78b986b45adc39ea79a11a5f
+    m_Address: Assets/Localization/puntuaciones panel Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  m_ReadOnly: 1
+  m_Settings: {fileID: 11400000, guid: 0f237cd14b2b87349ad31195e5fc2156, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 609d36c8627d0d84485034cf65d5b395, type: 2}
+    - {fileID: 11400000, guid: e410712990d46374d9fb721dcb3a6d34, type: 2}

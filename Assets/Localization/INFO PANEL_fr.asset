@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: INFO PANEL_fr
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: 3c368d9f5e238664b996a20a6bb76f90, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8522797056
+    m_Localized: MODES DE JEU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12645797888
+    m_Localized: "Les points obtenus \xE0 chaque tour sont calcul\xE9s \xE0 partir
+      du nombre du tour, plus le nombre de boutons-poussoirs, plus les points suppl\xE9mentaires
+      (en fonction du mode de jeu). Dans l'exemple:\n     5 (nombre de tour)\n  
+      +4 (nombre de boutons poussoir)\n   +1 (mode acc\xE9l\xE9r\xE9)\n   +5 (mode
+      invers\xE9)\n       TOTAL= 15 points"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30840688640
+    m_Localized: "Ici est indiqu\xE9 le score et ton record. Et juste en bas, est
+      indiqu\xE9 le nombre de points necessaires afin de d\xE9verrouiller les prochains
+      niveaux (100 points)."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335301021696
+    m_Localized: "Depuis le panneau de modes de jeu, s\xE9lectionnez le nombre de
+      couleurs avec lesquels vous voulez jouer. Plus de couleurs, plus de difficult\xE9,...
+      mais aussi plus de points!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337175875584
+    m_Localized: "On peut aussi s\xE9lectionner la vitesse de jeu. Dans le mode \"acc\xE9l\xE9r\xE9\",
+      la vitesse de jeu augmentera rapidement, mais vous obtiendrez un point suppl\xE9mentaire
+      \xE0 chaque tour."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339310776320
+    m_Localized: "Ce mode est d\xE9verrouill\xE9 et s\xE9l\xE9ctionn\xE9. \xC0 chaque
+      tours vous obtiendrez 5 points suplementaires."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 468533088256
+    m_Localized: "Ce mode de jeu est verrouill\xE9. Vous aurez besoin de 100 points
+      pour le d\xE9verrouiller."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566260371456
+    m_Localized: NORMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589643616256
+    m_Localized: "R\xE9p\xE9tez la s\xE9quence de couleurs indiqu\xE9e pr\xE9c\xE9demment."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613697949696
+    m_Localized: "INVERS\xC9"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 615908347904
+    m_Localized: "R\xE9p\xE9tez la s\xE9quence de couleurs indiqu\xE9e pr\xE9cedemment,
+      mais dans le sense inverse."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697990877184
+    m_Localized: AVEUGLE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702457810944
+    m_Localized: "La s\xE9quence de couleurs compl\xE8te ne sera plus montr\xE9e,
+      mais seulement la nouvelle couleur que vous devrez vous rappeler."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802034782208
+    m_Localized: "Pas si vite!\nRevenez lorsque vous d\xE9verrouillez ce mode de
+      jeu."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 863108042752
+    m_Localized: "Tous les 3 tours, 2 couleurs al\xE9atoires changeront leur position,
+      c'est fou!\nMaintenant, voici la bonne nouvelle, tous les 3 tours, les points
+      que vous obtiendrez seront multipli\xE9s, d'abord par 2, puis par 3, par 4,
+      5..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

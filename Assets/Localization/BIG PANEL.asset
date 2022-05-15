@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: BIG PANEL
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 9e69eaa5f9e34da40a29eb18afaf0543, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 22cbad84d9aebab41966d6ffc54ef64c, type: 2}
+  - {fileID: 11400000, guid: ece784dff6cc36343a7a4255cf796315, type: 2}
+  - {fileID: 11400000, guid: a8c884194926dcf42ae08b77c9d42cc7, type: 2}
+  - {fileID: 11400000, guid: f8fcec270f37b854fa2a600242535dc2, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 1

@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: INFO PANEL_ca
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: ca
+  m_SharedData: {fileID: 11400000, guid: 3c368d9f5e238664b996a20a6bb76f90, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8522797056
+    m_Localized: MODES DE JOC
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12645797888
+    m_Localized: "A cada ronda es sumen els punts corresponents al n\xFAmero de ronda,
+      m\xE9s el nombre de polsadors, m\xE9s els punts extra (segons la manera de
+      joc). En l'exemple:\r\n     5 (nombre de ronda)\r\n   +4 (nombre de polsadors)\r\n  
+      +1 (per manera accelerada)\r\n   +5 (per manera inversa)\r\n\r\n       TOTAL=
+      15 punts"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30840688640
+    m_Localized: "En la part inferior s'indica la puntuaci\xF3 actual, el r\xE8cord
+      hist\xF2ric i quina \xE9s la puntuaci\xF3 necess\xE0ria per a desbloquejar
+      el pr\xF2xim assoliment (100 punts). "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335301021696
+    m_Localized: "Des del panell de modes de joc, selecciona el nombre de colors
+      amb els quals jugar. Quants m\xE9s colors, m\xE9s dif\xEDcil ser\xE0,... per\xF2
+      m\xE9s punts guanyar\xE0s!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337175875584
+    m_Localized: "Tamb\xE9 pots seleccionar la velocitat del joc. En manera accelerada,
+      cada vegada anir\xE0 m\xE9s r\xE0pid, per\xF2 obtindr\xE0s un punt extra cada
+      ronda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339310776320
+    m_Localized: "Aquest mode est\xE0 desbloquejat i seleccionat. Cada ronda tens
+      5 punts extra."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 468533088256
+    m_Localized: "Aquest mode est\xE0 bloquejat, es necessiten 100 punts per a desbloquejar-lo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566260371456
+    m_Localized: NORMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589643616256
+    m_Localized: "Repeteix la seq\xFC\xE8ncia de colors que s'indica pr\xE8viament."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613697949696
+    m_Localized: INVERTIT
+    m_Metadata:
+      m_Items: []
+  - m_Id: 615908347904
+    m_Localized: "Repeteix la seq\xFC\xE8ncia de colors que s'indica pr\xE8viament,
+      per\xF2 de manera invertida."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697990877184
+    m_Localized: A CEGUES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702457810944
+    m_Localized: "No es mostrar\xE0 la seq\xFC\xE8ncia completa cada ronda, nom\xE9s
+      es mostra el nou color que has de recordar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802034782208
+    m_Localized: "No tan r\xE0pid!\nTorna quan desbloqueges aquest mode."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 863108042752
+    m_Localized: "Cada 3 rondes, 2 colors a l'atzar canviaran de posici\xF3, una
+      bogeria!. \r\nAra ve el bo, cada 3 rondes els punts que aconsegueixes es multiplicaran,
+      primer per 2, despr\xE9s per 3, per 4, 5..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1

@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: INFO PANEL_es
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 3c368d9f5e238664b996a20a6bb76f90, type: 2}
+  m_Metadata:
+    m_Items:
+    - id: 0
+  m_TableData:
+  - m_Id: 8522797056
+    m_Localized: MODOS DE JUEGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12645797888
+    m_Localized: "A cada ronda se le suman los puntos correspondientes al n\xFAmero
+      de ronda, m\xE1s el n\xFAmero de pulsadores, m\xE1s los puntos extra (seg\xFAn
+      el modo de juego). En el ejemplo:\n      5 (n\xFAmero de ronda)\n    +4 (n\xFAmero
+      de pulsadores)\n    +1 (por modo acelerado)\n    +5 (por modo inverso)\n\n      
+      TOTAL= 15 puntos"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30840688640
+    m_Localized: "En la parte inferior se indica la puntuaci\xF3n actual, el r\xE9cord
+      hist\xF3rico y cu\xE1l es la puntuaci\xF3n necesaria para desbloquear el pr\xF3ximo
+      logro (100 puntos). "
+    m_Metadata:
+      m_Items:
+      - id: 0
+  - m_Id: 335301021696
+    m_Localized: "Desde el panel de modos de juego, selecciona el n\xFAmero de colores
+      con los que jugar. Cuantos m\xE1s colores, m\xE1s dif\xEDcil ser\xE1,... \xA1pero
+      m\xE1s puntos ganar\xE1s!"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337175875584
+    m_Localized: "Tambi\xE9n puedes seleccionar la velocidad del juego. En modo acelerado,
+      cada vez ir\xE1 m\xE1s r\xE1pido, pero obtendr\xE1s un punto extra cada ronda."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339310776320
+    m_Localized: "Este modo de juego est\xE1 desbloqueado y seleccionado. Cada ronda
+      tienes 5 puntos extra."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 468533088256
+    m_Localized: "Este modo de juego est\xE1 bloqueado, necesitas 100 puntos para
+      desbloquearlo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566260371456
+    m_Localized: NORMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589643616256
+    m_Localized: Repite la secuencia de colores que se indica previamente.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613697949696
+    m_Localized: INVERTIDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 615908347904
+    m_Localized: Repite la secuencia de colores que se indica previamente, pero de
+      manera invertida.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697990877184
+    m_Localized: A CIEGAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702457810944
+    m_Localized: "No se mostrar\xE1 la secuencia completa cada ronda, solo  se muestra
+      el nuevo color que tienes que recordar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802034782208
+    m_Localized: "\xA1No tan r\xE1pido!\nVuelve cuando desbloquees este modo."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 863108042752
+    m_Localized: "Cada 3 rondas, 2 colores al azar cambiar\xE1n de posici\xF3n, \xA1una
+      locura!. \nAhora viene lo bueno, cada 3 rondas los puntos que consigues se
+      multiplicar\xE1n, primero por 2, luego por 3, por 4, 5..."
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
+    00000000:
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries: 00903f2e07000000

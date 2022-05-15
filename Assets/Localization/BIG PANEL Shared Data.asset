@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: BIG PANEL Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: BIG PANEL
+  m_TableCollectionNameGuidString: 9e69eaa5f9e34da40a29eb18afaf0543
+  m_Entries:
+  - m_Id: 11811131392
+    m_Key: N COLORES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 32585519104
+    m_Key: MODO DE JUEGO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 40357564416
+    m_Key: VELOCIDAD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53749977088
+    m_Key: NORMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 61064843264
+    m_Key: INVERTIDO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 67012366336
+    m_Key: A CIEGAS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 195773304832
+    m_Key: CONSTANTE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 198877089792
+    m_Key: ACELERADO
+    m_Metadata:
+      m_Items: []
+  - m_Id: 201351729152
+    m_Key: SEGUNDOS
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1650563095173

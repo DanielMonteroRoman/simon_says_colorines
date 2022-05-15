@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4db626ad063b13545924a9839ac5fa83, type: 3}
+  m_Name: IMAGEN TUTO
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: c188688c7e2488746a1f48d199bd8380, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 57df5696433041f4c82e225319ab6f45, type: 2}
+  - {fileID: 11400000, guid: ce422bec4314c744fbdfb429bbe24db3, type: 2}
+  - {fileID: 11400000, guid: 0bdd3f52b6ed39440a53f8090c0125e3, type: 2}
+  - {fileID: 11400000, guid: 70a4b811d5e420c43ad5e58f6079eaae, type: 2}
+  m_Extensions: []
+  m_Group: Asset Table
+  references:
+    version: 1

@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - SoundControler
+  - Colores
+  - Puntos
+  - Lineas
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Rojo
+  - Amarillo
+  - Verde
+  - Azul
+  - Carcasa
+  - Rosa
+  - Turquesa
+  - Blanco
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: fondo
+    uniqueID: 4092855209
+    locked: 0
+  - name: colores
+    uniqueID: 4062627423
+    locked: 0
+  - name: por delante
+    uniqueID: 3551906697
+    locked: 0

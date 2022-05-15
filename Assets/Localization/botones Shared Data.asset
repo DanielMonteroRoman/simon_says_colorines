@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b11a58205ec3474ca216360e9fa74a8, type: 3}
+  m_Name: botones Shared Data
+  m_EditorClassIdentifier: 
+  m_TableCollectionName: botones
+  m_TableCollectionNameGuidString: fbe01fffd6d41cf41a4ef8e89b16a934
+  m_Entries:
+  - m_Id: 7520358400
+    m_Key: play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 33747341312
+    m_Key: 'game mode
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216933568512
+    m_Key: title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286198304768
+    m_Key: ranking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439437201408
+    m_Key: share
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465987145728
+    m_Key: info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 483150237696
+    m_Key: 'rate us
+
+'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6176968249344
+    m_Key: Options
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    id: 0
+  references:
+    version: 1
+    00000000:
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1650554395521

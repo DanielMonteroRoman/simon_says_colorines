@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9620f8c34305754d8cc9a7e49e852d9, type: 3}
+  m_Name: INFO PANEL_en
+  m_EditorClassIdentifier: 
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 3c368d9f5e238664b996a20a6bb76f90, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 8522797056
+    m_Localized: GAME MODES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30840688640
+    m_Localized: The score and the highscore are indicated at the bottom. And right
+      bellow, there is also an indication of the points needed to unlock the next
+      achievement (100 points).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12645797888
+    m_Localized: "The amount of points you get in every round comes from adding:
+      the number of the round, the number of push buttons and the extra points (depending
+      on the game mode). On the example:\n     5 (number of the round)\n   +4 (number
+      of pushbuttons)\n   +1 (accelerated mode)\n   +5 (reverse mode)\n       TOTAL=
+      15 points"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335301021696
+    m_Localized: From the game modes panel, select the number of colors you want
+      to play with. The more colors you take,the more difficult the game will be,...
+      but you will get more points!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337175875584
+    m_Localized: You can also select the game speed. In the accelerated game mode,
+      the game speed will increase quickly, but you will get an extra point each
+      round.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 339310776320
+    m_Localized: Here you can see a game mode than has been unlocked and selected.
+      Every round you'll get 5 extra points.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 468533088256
+    m_Localized: This game mode is locked. You need to get 100 points to unblock
+      it.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 566260371456
+    m_Localized: NORMAL
+    m_Metadata:
+      m_Items: []
+  - m_Id: 589643616256
+    m_Localized: Repeat the pattern of colors previously showed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 613697949696
+    m_Localized: REVERSE
+    m_Metadata:
+      m_Items: []
+  - m_Id: 615908347904
+    m_Localized: Repeat the pattern of colors previously showed, but backwards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 697990877184
+    m_Localized: BLINDLY
+    m_Metadata:
+      m_Items: []
+  - m_Id: 702457810944
+    m_Localized: The whole pattern won't be showed every round, but only the new
+      color you will have to remember.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 802034782208
+    m_Localized: 'No so fast!
+
+      Come back when you unlock this game mode.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 863108042752
+    m_Localized: 'Every 3 rounds, 2 random colors will exchange their positions,
+      crazy!
+
+      Now the good thing, every 3 rounds the points you get will be
+      multiplied by 2, then by 3, by 4, 5...'
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 1
