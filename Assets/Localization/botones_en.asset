@@ -50,5 +50,9 @@ MonoBehaviour:
     m_Localized: Options
     m_Metadata:
       m_Items: []
+  - m_Id: 9048906432221184
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
