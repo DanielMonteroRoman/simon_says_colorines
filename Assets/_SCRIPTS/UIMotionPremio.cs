@@ -14,6 +14,8 @@ public class UIMotionPremio : MonoBehaviour
 
     [SerializeField] bool activator;
 
+    [SerializeField] float before = 3f, after = 1f;
+
 
     private void Awake()
     {
@@ -43,11 +45,11 @@ public class UIMotionPremio : MonoBehaviour
 
     IEnumerator Motion()
     {
-        yield return new WaitForSecondsRealtime(3f);
+        yield return new WaitForSecondsRealtime(before);
 
         activator = true;
 
-        yield return new WaitForSecondsRealtime(1f);
+        yield return new WaitForSecondsRealtime(after);
 
         activator = false;
 

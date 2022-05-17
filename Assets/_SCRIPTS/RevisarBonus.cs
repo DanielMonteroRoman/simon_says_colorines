@@ -13,9 +13,6 @@ public class RevisarBonus : MonoBehaviour
 
     GameManager gameMan;
 
-
-    [SerializeField] List<GameObject> stars;
-
     [Header("Estrellas del menú inicial")]
     [SerializeField] GameObject canvStar1, canvStar2, canvStar3;
 
@@ -42,11 +39,6 @@ public class RevisarBonus : MonoBehaviour
             DesactivateRevButton();
         }
         else ActivateRevButton();
-
-        for(int i = 0; i < numberOfBonus; i++)
-        {
-            stars[i].SetActive(true);
-        }
 
         ActivateCanvasStars(numberOfBonus);
     }
@@ -131,28 +123,11 @@ public class RevisarBonus : MonoBehaviour
 
     public void AddStar()
     {
-        foreach (GameObject star in stars)
-        {
-            if (!star.activeInHierarchy)
-            {
-                star.SetActive(true);
-                break;
-            }
-        }
-
         ActivateRevButton();
     }
 
     public void SustStar()
     {
-        foreach (GameObject star in stars)
-        {
-            if (star.activeInHierarchy)
-            {
-                star.SetActive(false);
-                break;
-            }
-        }
         if (numberOfBonus == 0) DesactivateRevButton();
     }
 

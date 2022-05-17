@@ -11,13 +11,15 @@ public class ChangeNameTitle : MonoBehaviour
 
     bool shopTextOn, optionsTextOn, normalTextOn;
 
+    [SerializeField] string tittle;
+
 
     private void Update()
     {
         if (shopGO.activeInHierarchy && !shopTextOn)
         {
 
-            ChangeText("tienda", "COLORINES");
+            ChangeText("tienda", tittle);
             shopTextOn = true;
             optionsTextOn = false;
             normalTextOn = false;
@@ -26,7 +28,7 @@ public class ChangeNameTitle : MonoBehaviour
         if (optionsGO.activeInHierarchy && !optionsTextOn)
         {
 
-            ChangeText("opciones", "COLORINES");
+            ChangeText("MODOS DE JUEGO", tittle);
             shopTextOn = false;
             optionsTextOn = true;
             normalTextOn = false;
@@ -34,7 +36,7 @@ public class ChangeNameTitle : MonoBehaviour
 
         if(!shopGO.activeInHierarchy && !optionsGO.activeInHierarchy)
         {
-            ChangeText("COLORINES", "juego de memoria estilo \"simon\"");
+            ChangeText(tittle, "juego de memoria estilo \"simon\"");
             shopTextOn=false;
             optionsTextOn=false;
             normalTextOn = true;

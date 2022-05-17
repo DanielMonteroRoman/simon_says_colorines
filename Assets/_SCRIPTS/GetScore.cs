@@ -24,7 +24,19 @@ public class GetScore : MonoBehaviour
     
     void UpdateScoreText()
     {
-        scoreText.text = score.ToString()+" $";
+        if (this.gameObject.name == "money")
+        {
+            scoreText.text = score.ToString()+"$";
+        }
+        else scoreText.text = score.ToString();
+    }
+
+    public void MoneyTimesThreeText()
+    {
+        if (this.gameObject.name == "money")
+        {
+            scoreText.text = (score*3).ToString() + "$";
+        }
     }
 
     public void ResetScore()
