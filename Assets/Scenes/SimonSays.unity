@@ -4432,7 +4432,7 @@ MonoBehaviour:
   secondary: {fileID: 1700197427}
   shopGO: {fileID: 1430851526}
   optionsGO: {fileID: 791193390}
-  tittle: 
+  tittle: COLORINES
 --- !u!222 &66182858
 CanvasRenderer:
   m_ObjectHideFlags: 0
