@@ -43,7 +43,7 @@ public class GameManager : MonoBehaviour
 
     public bool blocker; // bloquea en el scripts del colorBehaviour la iluminación
     private bool flipFlopBlocker; //bloquea la elección de GO para el FlipFlop
-    private bool repeatBlocker; //Se encarga de bloquear elección de nuevo color(repetición)
+   [SerializeField] private bool repeatBlocker; //Se encarga de bloquear elección de nuevo color(repetición)
 
 
     AudioSource _aSource;
@@ -98,7 +98,6 @@ public class GameManager : MonoBehaviour
         _aSource = GetComponent<AudioSource>();
 
         LoadData();
-
     }
 
     private void Update()
@@ -111,15 +110,6 @@ public class GameManager : MonoBehaviour
             }
         }
 
-       /* if (Input.GetKey(KeyCode.D))
-        {
-            ResetData();
-        }*/
-
-        //TODO: if (prize) StartCoroutine(ConfetiMaker());//MIRAR CUANDO PONGAMOS EL PREMIO
-
-        // lastColorTime = 0.2f + (betweenColorsTime * 0.4f);
-
         if (betweenColorsTime > 0.85f && betweenColorsTime < 1.05f)
         {
             lastColorTime = betweenColorsTime - 0.3f; //no sé por qué en este intervalo no se ve el apagado entre luz y luz, por eso cambio este valor a 0.3f
@@ -129,20 +119,16 @@ public class GameManager : MonoBehaviour
         if (round % 3 == 0 && round != 0)
         {
             changeing = true;
-
         }
 
         numberOfBalls = existentElements.Count;
-
     }
 
     private void PlayComputerTurn()
     {
         if (flipFlop && changeing)
         {
-
             StartCoroutine(InactiveExitButton());
-
 
             //elección de colores
             flipFlopList = FlipFlopColorChoice();
@@ -162,8 +148,7 @@ public class GameManager : MonoBehaviour
 
         }
         else
-        {
-            Debug.Log("ESTOY AQUÍ?");
+        {            
             AddNewElementToComputerList();
             StartCoroutine(ListActivation());  //HAY QUE MIRAR CÓSAS EN ESTE MÉTODO
         }
@@ -188,7 +173,7 @@ public class GameManager : MonoBehaviour
         blocker = true;
         UpdateLogoTurn();
 
-        if (OneColor)
+        if (OneColor && !repeatBlocker)
         {
             yield return new WaitForSecondsRealtime(betweenColorsTime);
             newElement.gameObject.GetComponent<NewColorBehaviour>().IluminationAcces();
@@ -516,17 +501,10 @@ public class GameManager : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(3.5f);
 
-
-
-
-
         animatorLogo.SetTrigger(CPUTurn);
 
         StartCoroutine(ListActivation());
-
     }
-
-
 
 
 
