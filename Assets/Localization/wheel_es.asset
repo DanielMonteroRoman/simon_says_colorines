@@ -22,9 +22,5 @@ MonoBehaviour:
     m_Localized: Publi
     m_Metadata:
       m_Items: []
-  - m_Id: 235975708672
-    m_Localized: has ganado
-    m_Metadata:
-      m_Items: []
   references:
     version: 1

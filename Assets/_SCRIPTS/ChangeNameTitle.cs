@@ -5,21 +5,21 @@ using TMPro;
 
 public class ChangeNameTitle : MonoBehaviour
 {
-    [SerializeField] TMP_Text main, secondary;
+    [SerializeField] GameObject tiendaTextGO, modosTextGO, tituloGO, simonStyleGO;
 
     [SerializeField]  GameObject shopGO, optionsGO;
 
     bool shopTextOn, optionsTextOn, normalTextOn;
 
-    [SerializeField] string tittle;
-
-
     private void Update()
     {
         if (shopGO.activeInHierarchy && !shopTextOn)
         {
-
-            ChangeText("tienda", tittle);
+            tiendaTextGO.SetActive(true);
+            modosTextGO.SetActive(false);
+            tituloGO.SetActive(false);
+            simonStyleGO.SetActive(false);
+            
             shopTextOn = true;
             optionsTextOn = false;
             normalTextOn = false;
@@ -28,16 +28,26 @@ public class ChangeNameTitle : MonoBehaviour
         if (optionsGO.activeInHierarchy && !optionsTextOn)
         {
 
-            ChangeText("MODOS DE JUEGO", tittle);
+            tiendaTextGO.SetActive(false);
+            modosTextGO.SetActive(true);
+            tituloGO.SetActive(false);
+            simonStyleGO.SetActive(false);
+
+
             shopTextOn = false;
             optionsTextOn = true;
             normalTextOn = false;
         }
 
-        if(!shopGO.activeInHierarchy && !optionsGO.activeInHierarchy)
+        if(!shopGO.activeInHierarchy && !optionsGO.activeInHierarchy && !normalTextOn)
         {
-            ChangeText(tittle, "juego de memoria estilo \"simon\"");
-            shopTextOn=false;
+
+            tiendaTextGO.SetActive(false);
+            modosTextGO.SetActive(false);
+            tituloGO.SetActive(true);
+            simonStyleGO.SetActive(true);
+
+            shopTextOn =false;
             optionsTextOn=false;
             normalTextOn = true;
 
@@ -45,9 +55,4 @@ public class ChangeNameTitle : MonoBehaviour
 
     }
 
-    void ChangeText(string mainText, string secondaryText)
-    {
-        main.text = mainText;
-        secondary.text = secondaryText;
-    }
 }

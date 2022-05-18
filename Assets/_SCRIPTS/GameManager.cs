@@ -310,6 +310,8 @@ public class GameManager : MonoBehaviour
         betweenColorsTime = restartTime; //1UP
 
         existentElements.Clear();
+
+        changeing = false;
                 
     }
 
