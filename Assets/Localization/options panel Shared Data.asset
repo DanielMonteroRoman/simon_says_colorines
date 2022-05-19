@@ -47,6 +47,10 @@ MonoBehaviour:
     m_Key: sonidos
     m_Metadata:
       m_Items: []
+  - m_Id: 10199902055272448
+    m_Key: modos de juego
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

@@ -46,5 +46,9 @@ MonoBehaviour:
     m_Localized: "ESPA\xD1OL"
     m_Metadata:
       m_Items: []
+  - m_Id: 10199902055272448
+    m_Localized: modos de juego
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

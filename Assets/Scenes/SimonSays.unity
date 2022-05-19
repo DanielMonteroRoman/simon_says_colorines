@@ -6526,6 +6526,7 @@ GameObject:
   - component: {fileID: 110671243}
   - component: {fileID: 110671246}
   - component: {fileID: 110671245}
+  - component: {fileID: 110671244}
   m_Layer: 5
   m_Name: MODOS
   m_TagString: Untagged
@@ -6550,9 +6551,48 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -4.9988, y: -54.6}
-  m_SizeDelta: {x: 928.26, y: 65.5}
+  m_AnchoredPosition: {x: -1.2818, y: -54.6}
+  m_SizeDelta: {x: 945.25, y: 65.5}
   m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &110671244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 110671242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:1224f8ef275ecc141aacf56eab2b8e14
+    m_TableEntryReference:
+      m_KeyId: 10199902055272448
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 110671245}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 1
 --- !u!114 &110671245
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43923,6 +43963,7 @@ GameObject:
   - component: {fileID: 881694586}
   - component: {fileID: 881694589}
   - component: {fileID: 881694588}
+  - component: {fileID: 881694587}
   m_Layer: 5
   m_Name: TIENDA
   m_TagString: Untagged
@@ -43947,9 +43988,48 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 1}
   m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: -5, y: -49.6}
-  m_SizeDelta: {x: 458.21, y: 65.501}
+  m_AnchoredPosition: {x: -2.9643, y: -49.6}
+  m_SizeDelta: {x: 939.39, y: 65.5}
   m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &881694587
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881694585}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56eb0353ae6e5124bb35b17aff880f16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_StringReference:
+    m_TableReference:
+      m_TableCollectionName: GUID:fbe01fffd6d41cf41a4ef8e89b16a934
+    m_TableEntryReference:
+      m_KeyId: 9048906432221184
+      m_Key: 
+    m_FallbackState: 0
+    m_WaitForCompletion: 0
+    m_LocalVariables: []
+  m_FormatArguments: []
+  m_UpdateString:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 881694588}
+        m_TargetAssemblyTypeName: TMPro.TMP_Text, Unity.TextMeshPro
+        m_MethodName: set_text
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 1
+  references:
+    version: 1
 --- !u!114 &881694588
 MonoBehaviour:
   m_ObjectHideFlags: 0

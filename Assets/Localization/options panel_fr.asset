@@ -46,5 +46,9 @@ MonoBehaviour:
     m_Localized: "FRAN\xC7AIS"
     m_Metadata:
       m_Items: []
+  - m_Id: 10199902055272448
+    m_Localized: modes de jeu
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
