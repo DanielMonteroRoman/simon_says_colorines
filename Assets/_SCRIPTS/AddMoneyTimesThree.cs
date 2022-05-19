@@ -15,6 +15,6 @@ public class AddMoneyTimesThree : MonoBehaviour
 
     public void AddThreeTimes()
     {
-        moneyMan.AddMoney(scoreMan._score * 3);
+        moneyMan.AddMoney(scoreMan._score * 2);
     }
 }
