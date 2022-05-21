@@ -7,12 +7,19 @@ public class InterstitialAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnit
     [SerializeField] string _iOsAdUnitId = "Interstitial_iOS";
     string _adUnitId;
 
+    [SerializeField] int numberOfGames;
+    [SerializeField] int numberOfGamesAllowed;
+
+    float fixedDeltaTime;
+
     void Awake()
     {
         // Get the Ad Unit ID for the current platform:
         _adUnitId = (Application.platform == RuntimePlatform.IPhonePlayer)
             ? _iOsAdUnitId
             : _androidAdUnitId;
+
+        this.fixedDeltaTime = Time.fixedDeltaTime;
     }
 
     // Load content to the Ad Unit:
@@ -49,7 +56,42 @@ public class InterstitialAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnit
         // Optionally execute code if the Ad Unit fails to show, such as loading another ad.
     }
 
-    public void OnUnityAdsShowStart(string adUnitId) { }
-    public void OnUnityAdsShowClick(string adUnitId) { }
-    public void OnUnityAdsShowComplete(string adUnitId, UnityAdsShowCompletionState showCompletionState) { }
+
+
+    public void AddNumberOfGames() // aumenta en uno el número de juegos
+    {
+        numberOfGames++;
+    }
+    public void ShowAdIfGamesEnded() // para gameoverpanel, enseña anuncio si se han acabado los intentos
+    {
+        if (numberOfGames >= numberOfGamesAllowed)
+        {
+            ShowAd();
+            numberOfGames = 0;
+        }
+    }
+
+    public void AdButton() //si se ha visto un anuncio voluntario resetea el conteo
+    {
+        numberOfGames = 0;
+    }
+
+    public void OnUnityAdsShowStart(string adUnitId) 
+    {
+        Time.timeScale = 0.0f;
+        Debug.Log("tiempo congelado");
+
+    }
+    public void OnUnityAdsShowClick(string adUnitId) 
+    {
+        Time.timeScale = 1.0f;
+        Debug.Log("tiempo DESCONGELADO");
+        LoadAd();
+    }
+    public void OnUnityAdsShowComplete(string adUnitId, UnityAdsShowCompletionState showCompletionState) 
+    {
+        Time.timeScale = 1.0f;
+        Debug.Log("tiempo DESCONGELADO");
+        LoadAd();
+    }
 }

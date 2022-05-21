@@ -8,11 +8,15 @@ public class RepartePremios : MonoBehaviour
     ExtraLiveBonus _extraLive;
     RevisarBonus _revisarBonus;
 
+    InterstitialAdsButton interstitialAdsButton;
+
     private void Awake()
     {
         _moneyManager = GetComponent<MoneyManager>();
         _extraLive = GetComponent<ExtraLiveBonus>();
         _revisarBonus = GetComponent<RevisarBonus>();
+
+        interstitialAdsButton = GameObject.Find("ADS MANAGER").GetComponent<InterstitialAdsButton>();
     }
 
     
@@ -24,7 +28,7 @@ public class RepartePremios : MonoBehaviour
                 _moneyManager.AddMoney(1000);
                 break;
             case 1:
-                //PUBLICIDAD
+                StartCoroutine(AnuncioCorr());
                 break;
             case 2:
                 _extraLive.AddBonusForFree();
@@ -54,7 +58,7 @@ public class RepartePremios : MonoBehaviour
                 _moneyManager.AddMoney(500);
                 break;
             case 11:
-                //PUBLICIDAD
+                StartCoroutine(AnuncioCorr());
                 break;
             case 12:
                 _moneyManager.AddMoney(10000);
@@ -97,6 +101,12 @@ public class RepartePremios : MonoBehaviour
 
         }
 
+    }
+
+    IEnumerator AnuncioCorr()
+    {
+        yield return new WaitForSecondsRealtime(2);
+        interstitialAdsButton.ShowAd();
     }
 
     private int AvailableMoney()
