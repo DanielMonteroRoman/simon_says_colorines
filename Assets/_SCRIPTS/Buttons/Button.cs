@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Button : MonoBehaviour
@@ -14,12 +12,7 @@ public class Button : MonoBehaviour
         _boton = GetComponent<UnityEngine.UI.Button>();
         
     }
-
-    private void OnEnable()
-    {
-        //_boton.interactable = true;
-    }
-
+ 
     public void PressedButton()
     {
         _anim.SetTrigger(apretado);

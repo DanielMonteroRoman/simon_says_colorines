@@ -1,10 +1,8 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class DesactivateTheatre : MonoBehaviour
 {
-
     Animator _Anim;
 
     [SerializeField] float time;

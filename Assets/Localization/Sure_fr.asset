@@ -19,17 +19,17 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 8107560960
-    m_Localized: "Vous allez ach\xE9ter un COMOD\xCDN de \"continuer\" par 5000$.\n\xCAtes-vous
+    m_Localized: "Vous allez ach\xE9ter un bonus de \"continuer\" de 5000$.\n\xCAtes-vous
       d'accord?"
     m_Metadata:
       m_Items: []
   - m_Id: 1904125906944
-    m_Localized: "Vous allez ach\xE9ter un COMOD\xCDN de \"r\xE9p\xE9ter\" par 1500$.\n\xCAtes-vous
+    m_Localized: "Vous allez ach\xE9ter un bonus de \"r\xE9p\xE9ter\" de 1500$.\n\xCAtes-vous
       d'accord?"
     m_Metadata:
       m_Items: []
   - m_Id: 2743351611392
-    m_Localized: "Vous allez ach\xE9ter un COMOD\xCDN de \"soldes\" par 3000$.\n\xCAtes-vous
+    m_Localized: "Vous allez ach\xE9ter un bonus de \"soldes\" de 3000$.\n\xCAtes-vous
       d'accord?"
     m_Metadata:
       m_Items: []

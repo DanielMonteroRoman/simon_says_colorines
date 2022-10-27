@@ -10,12 +10,7 @@ public class ModePanel : MonoBehaviour
 
     [SerializeField] int desactivationTime;
 
-    public void ActiveValueToFalse()
-    {
-       // active = false;
-    }
-
-  
+     
    public void DesActivationPanel()
     {
 

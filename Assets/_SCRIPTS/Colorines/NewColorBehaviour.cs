@@ -1,6 +1,4 @@
-using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -25,7 +23,11 @@ public class NewColorBehaviour : MonoBehaviour
 
     [SerializeField] ParticleSystem pushParticles;
 
-    public AudioClip colocation, vibration, bajada, subida;
+    public AudioClip vibration, bajada, subida;
+
+    ColorSoundLists colorSLists;
+
+    [SerializeField] int IDNumber;
 
     
     private void Awake()
@@ -34,6 +36,8 @@ public class NewColorBehaviour : MonoBehaviour
         _anim = GetComponent<Animator>();
         gameManager = GameObject.Find("GAME MANAGER").GetComponent<GameManager>();
         _aSource = GetComponent<AudioSource>();
+
+        colorSLists = GameObject.Find("ColorSounds").GetComponent<ColorSoundLists>();
 
         
     }
@@ -47,8 +51,6 @@ public class NewColorBehaviour : MonoBehaviour
         else iluminationTime = gameManager.betweenColorsTime-0.1f;
         
     }
-
-
     
     void  OnMouseDown()
     {
@@ -98,7 +100,7 @@ public class NewColorBehaviour : MonoBehaviour
         {
             _anim.SetBool(apretar, true);
 
-            _aSource.PlayOneShot(sound);
+            _aSource.PlayOneShot(colorSLists.currentList[IDNumber], colorSLists.soundVolume);
 
             yield return new WaitForSecondsRealtime(iluminationTime);
 
@@ -121,7 +123,7 @@ public class NewColorBehaviour : MonoBehaviour
     {   
         //if (!gameManager.blocker)
         {
-            _aSource.PlayOneShot(sound);
+            _aSource.PlayOneShot(colorSLists.currentList[IDNumber], colorSLists.soundVolume);
            
             _anim.SetBool(apretar, true);
         }
@@ -186,7 +188,7 @@ public class NewColorBehaviour : MonoBehaviour
 
     IEnumerator FlipSoundsCorr() 
     {
-        _aSource.PlayOneShot(vibration);
+        _aSource.PlayOneShot(vibration,5);
 
         yield return new WaitForSecondsRealtime(3.3f);
 
@@ -195,16 +197,17 @@ public class NewColorBehaviour : MonoBehaviour
 
     public void SoundsFlop()
     {
-        StartCoroutine(FlopSoundsCorr());
+        _aSource.PlayOneShot(subida, 0.5f);
+        //StartCoroutine(FlopSoundsCorr());
     }
 
     IEnumerator FlopSoundsCorr()
     {
-        _aSource.PlayOneShot(subida, 0.5f);
+        
 
         yield return new WaitForSecondsRealtime(1.75f);
 
-        _aSource.PlayOneShot(colocation);
+        
     }
     
 

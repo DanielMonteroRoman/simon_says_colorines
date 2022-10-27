@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ExtraLiveBonus : MonoBehaviour
@@ -20,6 +19,8 @@ public class ExtraLiveBonus : MonoBehaviour
     [SerializeField] int price;
 
     [SerializeField] UnityEngine.UI.Button shopButton;
+
+    [SerializeField] GameObject prohibidoLive;
     
 
     private void Awake()
@@ -76,7 +77,7 @@ public class ExtraLiveBonus : MonoBehaviour
         }
         else
         {
-            //ACTIVAR PANEL DE NO TIENES DINERO //ADS
+            prohibidoLive.GetComponent<Animator>().SetTrigger("activa");
         }        
     }
 
@@ -90,6 +91,10 @@ public class ExtraLiveBonus : MonoBehaviour
 
             ActivateExtraLiveButton();
            
+        }
+        else
+        {
+            StartCoroutine(ProhibidoSignal());
         }
     }
 
@@ -141,5 +146,16 @@ public class ExtraLiveBonus : MonoBehaviour
             
         }      
 
+    }
+
+    IEnumerator ProhibidoSignal()
+    {
+        prohibidoLive.GetComponent<Animator>().SetTrigger("activa");
+        yield return new WaitForSecondsRealtime(1);
+        prohibidoLive.GetComponent<Animator>().SetTrigger("activa");
+        yield return new WaitForSecondsRealtime(1);
+        prohibidoLive.GetComponent<Animator>().SetTrigger("activa");
+        yield return new WaitForSecondsRealtime(1);
+        prohibidoLive.GetComponent<Animator>().SetTrigger("activa");
     }
 }

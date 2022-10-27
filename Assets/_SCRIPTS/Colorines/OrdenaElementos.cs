@@ -1,9 +1,6 @@
-using System;
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
-
 
 public class OrdenaElementos : MonoBehaviour
 {
@@ -34,8 +31,6 @@ public class OrdenaElementos : MonoBehaviour
         gameManager = GameObject.Find("GAME MANAGER").GetComponent<GameManager>();
                 
     }
-
-
     
     private void ColorsPlacement(int number)
     {

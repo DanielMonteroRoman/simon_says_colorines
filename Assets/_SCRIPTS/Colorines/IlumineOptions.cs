@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class IlumineOptions : MonoBehaviour
@@ -9,12 +8,13 @@ public class IlumineOptions : MonoBehaviour
     AudioSource _aSource;
     [SerializeField] AudioClip sound;
    
-
     Animator _anim;
 
     string apretar = "apretar";
 
     SoundSelection soundSele;
+
+    ColorSoundLists soundLists;
 
     private void Awake()
     {
@@ -22,22 +22,14 @@ public class IlumineOptions : MonoBehaviour
         _aSource = GetComponent<AudioSource>();
 
         soundSele =GameObject.Find("SoundControler").GetComponent<SoundSelection>();
-    }
 
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-        sound = soundSele.selectedSound;
+        soundLists = GameObject.Find("ColorSounds").GetComponent<ColorSoundLists>();
     }
 
     void OnMouseDown()
-    {       
+    {
+        //sound = soundSele.selectedSound;
+        sound = soundLists.currentList[Random.Range(0, 6)];
         Ilumine();
         Timer(true);
     }
@@ -61,9 +53,10 @@ public class IlumineOptions : MonoBehaviour
     {
         //if (!gameManager.blocker)
         {
-            _aSource.PlayOneShot(sound);
+            _aSource.PlayOneShot(sound, soundLists.soundVolume);
 
             _anim.SetBool(apretar, true);
+
         }
 
     }

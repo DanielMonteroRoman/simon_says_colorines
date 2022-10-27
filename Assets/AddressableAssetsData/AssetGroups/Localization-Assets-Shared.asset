@@ -65,6 +65,18 @@ MonoBehaviour:
     m_Address: Assets/Localization/wheel Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+  - m_GUID: d393ac7a38646e648a2d1db2cba80353
+    m_Address: Assets/Localization/New Table Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 7bfe2edf680180a47bb456d45a95b63c
+    m_Address: Assets/Localization/Rate us panel Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
+  - m_GUID: 2ac5192ef85d3d949a9330d430234cc8
+    m_Address: Assets/Localization/Ad-Free Pop Up Shared Data.asset
+    m_ReadOnly: 1
+    m_SerializedLabels: []
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 0f237cd14b2b87349ad31195e5fc2156, type: 2}
   m_SchemaSet:

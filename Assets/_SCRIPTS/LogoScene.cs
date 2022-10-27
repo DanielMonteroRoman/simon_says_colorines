@@ -1,13 +1,9 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LogoScene : MonoBehaviour
 {
-
-    private GameObject logo;
-
     private string fadeOut = "fade out";
 
     private Animator _anim;
@@ -20,12 +16,7 @@ public class LogoScene : MonoBehaviour
 
         StartCoroutine(Animation());
     }
-
-    // Update is called once per frame
-    void Update()
-    {
         
-    }
 
     private IEnumerator Animation()
     {
@@ -35,7 +26,7 @@ public class LogoScene : MonoBehaviour
 
         _anim.SetBool(fadeOut, true);
 
-        yield return new WaitForSecondsRealtime(4f);
+        yield return new WaitForSecondsRealtime(2f);
 
         LoadScene();
     }

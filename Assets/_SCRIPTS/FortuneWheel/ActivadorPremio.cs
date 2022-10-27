@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class ActivadorPremio : MonoBehaviour
 {
@@ -13,13 +11,10 @@ public class ActivadorPremio : MonoBehaviour
     
     public void ActivaPremio(string animation)
     {
-
         StartCoroutine(ActiveAnimationCoroutine(animation));
-
 
         StartCoroutine(AnimationSoundAcitvation(animation));
         
-         
     }
 
     IEnumerator ActiveAnimationCoroutine(string animation)

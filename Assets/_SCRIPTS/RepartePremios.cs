@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RepartePremios : MonoBehaviour
@@ -16,7 +15,7 @@ public class RepartePremios : MonoBehaviour
         _extraLive = GetComponent<ExtraLiveBonus>();
         _revisarBonus = GetComponent<RevisarBonus>();
 
-        interstitialAdsButton = GameObject.Find("ADS MANAGER").GetComponent<InterstitialAdsButton>();
+       // interstitialAdsButton = GameObject.Find("ADS MANAGER").GetComponent<InterstitialAdsButton>();
     }
 
     

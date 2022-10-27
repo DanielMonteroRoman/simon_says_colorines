@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.Advertisements;
 
 public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAdsShowListener
@@ -23,6 +22,7 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
 
     [SerializeField] GameObject spiningObject;
     [SerializeField] GameObject panelBloqueoRuleta;
+    [SerializeField] GameObject panelBloqueoBotonRuleta;
     [SerializeField] GameObject velocidadPanel;
 
     [Header("COSAS DE LAS RECOMPENSA 2")]
@@ -34,7 +34,7 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
 
     int orderNumber=0;
 
-    InterstitialAdsButton _interstAds;
+   InterstitialAdsButton _interstAds;
     void Awake()
     {
         _interstAds = GetComponent<InterstitialAdsButton>();
@@ -47,7 +47,8 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
 
         //Disable the button until the ad is ready to show:
         _showAdButton.interactable = false;
-        _showAdButton2.interactable = false;
+       _showAdButton2.interactable = false;
+       
         _showAdButton3.interactable = false;
     }
 
@@ -55,7 +56,7 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
     public void LoadAd()
     {
         // IMPORTANT! Only load content AFTER initialization (in this example, initialization is handled in a different script).
-        Debug.Log("Loading Ad: " + _adUnitId + "DANI" + orderNumber);
+        
         orderNumber++;
 
         Advertisement.Load(_adUnitId, this);
@@ -79,7 +80,8 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
             // Enable the button for users to click:
             _showAdButton.interactable = true;
             _showAdButton2.interactable = true;
-            _showAdButton3.interactable = true;
+
+           //_showAdButton3.interactable = true; //lo quito porque lo activa cuando debe estar off
 
            
             
@@ -121,6 +123,7 @@ public class RewardedAdsButton : MonoBehaviour, IUnityAdsLoadListener, IUnityAds
                 case 1:
                     spiningObject.GetComponent<SpinFortuneWheel>().StartWheelSpin();
                     panelBloqueoRuleta.SetActive(true);
+                    panelBloqueoBotonRuleta.SetActive(true);
                     velocidadPanel.GetComponent<BlockButtonWheel>().Try();
                     break;  
 

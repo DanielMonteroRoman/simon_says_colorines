@@ -84,11 +84,13 @@ public class GestorRecompensa : MonoBehaviour
 
             string auxTimer = "";
 
-            auxTimer += ((int)segundosRestantes / 3600).ToString() + "h ";
-           
-            auxTimer += (((int)segundosRestantes-((int)segundosRestantes / 3600) * 3600) / 60).ToString() + "m ";
 
-            auxTimer += (Mathf.CeilToInt(segundosRestantes % 60)).ToString() + " ";
+            auxTimer += ((int)segundosRestantes / 3600).ToString("00") + "h ";
+           
+            auxTimer += (((int)segundosRestantes-((int)segundosRestantes / 3600) * 3600) / 60).ToString("00") + "m ";
+
+
+            auxTimer += (Mathf.CeilToInt(segundosRestantes % 60)).ToString("00") + " ";
 
             textTime.text = auxTimer;
         }

@@ -77,6 +77,24 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-ca
     - Preload
+  - m_GUID: d6991cf9fc011c6409d931718510e3b9
+    m_Address: Username_ca
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+    - Preload
+  - m_GUID: cf81216a711e43447b2526d795e60a72
+    m_Address: Rate us panel_ca
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+    - Preload
+  - m_GUID: 69b03505101dd69479e258d014dc52fb
+    m_Address: Ad-Free Pop Up_ca
+    m_ReadOnly: 1
+    m_SerializedLabels:
+    - Locale-ca
+    - Preload
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 0f237cd14b2b87349ad31195e5fc2156, type: 2}
   m_SchemaSet:

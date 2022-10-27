@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Localization.Settings;
@@ -12,10 +11,7 @@ public class idiomas : MonoBehaviour
 
     List<Locale> locales;
 
-    private void Start()
-    {
-
-    }
+   
     public void RightButton()
     {            
         if(index < 3)

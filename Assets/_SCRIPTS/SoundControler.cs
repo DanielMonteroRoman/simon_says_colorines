@@ -1,8 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.Audio;
+
 
 public class SoundControler : MonoBehaviour
 {
@@ -22,6 +21,7 @@ public class SoundControler : MonoBehaviour
     float initialVolumeValue;
     float initialSFXVolume;
 
+    
     private void Awake()
     {
         _aSource = GetComponent<AudioSource>();
@@ -30,16 +30,14 @@ public class SoundControler : MonoBehaviour
     private void Start()
     {
         musicVolume.value = PlayerPrefs.GetFloat("MusicVolume", 0.3f);
-        SFXVolume.value = PlayerPrefs.GetFloat("SFXVolume", 0.51f);
+        SFXVolume.value = PlayerPrefs.GetFloat("SFXVolume", 0.7f);
 
-        initialVolumeValue = PlayerPrefs.GetFloat("MusicVolume");
-        initialSFXVolume = PlayerPrefs.GetFloat("SFXVolume");
+        initialVolumeValue = PlayerPrefs.GetFloat("MusicVolume", 0.3f);
+        initialSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 0.7f);
 
-        Debug.Log(PlayerPrefs.GetFloat("MusicVolume").ToString());
-
+       
         SetMusicVolume(initialVolumeValue);
         SetFXVolume(initialSFXVolume);
-
 
     }
 
@@ -69,7 +67,7 @@ public class SoundControler : MonoBehaviour
 
     public void SetFXVolume(float SFXVolume)
     {
-        masterMixer.SetFloat("SFXVolume", Mathf.Log10(SFXVolume)*20);
+        masterMixer.SetFloat("sFXVolume", Mathf.Log10(SFXVolume)*20);              
     } 
     
     public void SetMusicVolume(float musicVolume)
@@ -77,10 +75,6 @@ public class SoundControler : MonoBehaviour
         masterMixer.SetFloat("musicVolume", Mathf.Log10(musicVolume)*20);
     }
 
-    public void SetMasterVolume(float masterVolume)
-    {
-       
-    }
     
     public void Mute(bool muted)
     {
@@ -98,5 +92,10 @@ public class SoundControler : MonoBehaviour
         muteToggle.isOn = false;
     }
 
+
+    public void Reset()
+    {
+        
+    }
 
 }

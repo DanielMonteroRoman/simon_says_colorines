@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 using TMPro;
@@ -63,13 +61,10 @@ public class Timer : MonoBehaviour
             }
 
             string auxTimer = "";
+                        
+            auxTimer += (((int)segundosRestantes - ((int)segundosRestantes / 3600) * 3600) / 60).ToString("00") + "m ";
 
-            //auxTimer += ((int)segundosRestantes / 3600).ToString() + "h ";
-            //segundosRestantes -= ((int)segundosRestantes / 3600) * 3600;
-
-            auxTimer += (((int)segundosRestantes - ((int)segundosRestantes / 3600) * 3600) / 60).ToString() + "m ";
-
-            auxTimer += (Mathf.CeilToInt(segundosRestantes % 60)).ToString();
+            auxTimer += (Mathf.CeilToInt(segundosRestantes % 60)).ToString("00");
 
             textTime.text = auxTimer;
         }

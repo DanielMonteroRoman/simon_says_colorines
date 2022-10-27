@@ -25,7 +25,6 @@ MonoBehaviour:
       Design.
 
 
-      Music.
 
 
 '
@@ -35,7 +34,15 @@ MonoBehaviour:
     m_Localized: 'Some sound effects:
 
 
-      Some background images:'
+      Some background images:
+
+
+      Music
+      from:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26116869333159936
+    m_Localized: privacy policy
     m_Metadata:
       m_Items: []
   references:

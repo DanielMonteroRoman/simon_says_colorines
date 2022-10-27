@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 
@@ -28,6 +26,7 @@ public class Unlocker : MonoBehaviour
     [SerializeField] TMP_Text level1, level2, level3, level4, level5, level6, level7, level8;
 
     [SerializeField] TMP_Text nextUnblock;
+    [SerializeField] GameObject candado;
 
     [SerializeField] GameObject notification;
     notification notif;
@@ -36,7 +35,7 @@ public class Unlocker : MonoBehaviour
 
     private void Awake()
     {
-        scoreManager = GameObject.Find("SCORE MANAGER").GetComponent<ScoreManager>();
+       scoreManager = GameObject.Find("SCORE MANAGER").GetComponent<ScoreManager>();
         notif = notification.GetComponent<notification>();
 
         LoadLevel();
@@ -292,6 +291,9 @@ public class Unlocker : MonoBehaviour
                 blockFlipFlop.SetActive(false);
                 nueve.SetActive(true);
                 block9.SetActive(false);
+
+                nextUnblock.text = "";
+                candado.SetActive(false);
                 break;
         }
     }

@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System;
 
@@ -16,20 +14,11 @@ public class unlockAnim : MonoBehaviour
     }
 
     private void Start()
-    {
-        
-
+    {       
         Unlocked(activator);
-
-
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
+    
     public void Unlocked(bool block)
     {
         _anim.SetBool("unlocked",block);

@@ -19,14 +19,16 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 93084160000
-    m_Localized: "Disseny, programaci\xF3 i gr\xE0fics.\n\nDisseny.\n\nM\xFAsica.\n\n\n"
+    m_Localized: "Disseny, programaci\xF3 i gr\xE0fics.\n\nDisseny.\n\n\n\n\n"
     m_Metadata:
       m_Items: []
   - m_Id: 1081725220261888
-    m_Localized: 'Alguns efectes de so:
-
-
-      Algunes imatges de fons:'
+    m_Localized: "Alguns efectes de so:\n\nAlgunes imatges de fons:\n\nM\xFAsica
+      obtinguda en: "
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26116869333159936
+    m_Localized: "pol\xEDtica de privacitat"
     m_Metadata:
       m_Items: []
   references:

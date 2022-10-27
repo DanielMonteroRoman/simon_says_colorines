@@ -1,10 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using TMPro;
-using System;
-using UnityEngine.UI;
+
 
 public class GameManager : MonoBehaviour
 {
@@ -65,12 +63,12 @@ public class GameManager : MonoBehaviour
 
     public int numberOfBalls;
 
-    ScoreManager scoreMan;
+   ScoreManager scoreMan;
 
     [SerializeField] GameObject flipFlopPanel;
 
 
-    RecogerDatos recogeDato; // BORRAR CUANDO ACABE LA PRUEBA
+   // RecogerDatos recogeDato; // BORRAR CUANDO ACABE LA PRUEBA
 
     [SerializeField] UnityEngine.UI.Button exitButton;
 
@@ -87,10 +85,11 @@ public class GameManager : MonoBehaviour
 
         flipFlopColors = GameObject.Find("FlipFloper").GetComponent<FlipFlopColors>();
 
-        scoreMan = GameObject.Find("SCORE MANAGER").GetComponent<ScoreManager>();
+       scoreMan = GameObject.Find("SCORE MANAGER").GetComponent<ScoreManager>();
 
-        recogeDato = GameObject.Find("RECOGER DATOS").GetComponent<RecogerDatos>(); //BORRAR CUANDO ACABE LA PRUEBA
+       //recogeDato = GameObject.Find("RECOGER DATOS").GetComponent<RecogerDatos>(); //BORRAR CUANDO ACABE LA PRUEBA
 
+        
     }
 
     private void Start()
@@ -326,7 +325,7 @@ public class GameManager : MonoBehaviour
     /// </summary>
     void GameOver()
     {        
-        recogeDato.RecogidaDeDatos();
+       // recogeDato.RecogidaDeDatos();
         Debug.Log("BORRA TODO LO DE LA RECOGIDA DE DATOS");
 
         scoreMan.ExternalScoreUpdater();
@@ -472,7 +471,6 @@ public class GameManager : MonoBehaviour
         flipFlopColors.GO1 = colorList[0];
         flipFlopColors.GO2 = colorList[1];
     }
-
 
     /// <summary>
     /// Animación de flop y cambio de posición

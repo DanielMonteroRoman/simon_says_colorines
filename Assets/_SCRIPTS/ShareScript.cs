@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using System.IO;
 
@@ -11,7 +10,7 @@ public class ShareScript : MonoBehaviour
 
 	private void Awake()
     {
-        scoreMan = GameObject.Find("SCORE MANAGER").GetComponent<ScoreManager>();
+       scoreMan = GameObject.Find("SCORE MANAGER").GetComponent<ScoreManager>();
     }
     public void ClickShare()
     {
@@ -25,12 +24,8 @@ public class ShareScript : MonoBehaviour
 		yield return new WaitForEndOfFrame();
 
 		//HACER UNA CAPTURA DE PANTALLA, LA IMAGEN CREADA SE LLAMA "ss":
-
-		/*Texture2D ss = new Texture2D(Screen.width, Screen.height, TextureFormat.RGB24, false);
-		ss.ReadPixels(new Rect(0, 0, Screen.width, Screen.height), 0, 0);
-		ss.Apply();*/
-
-		Texture2D image = Resources.Load("image", typeof(Texture2D)) as Texture2D;
+		
+		Texture2D image = Resources.Load("compartir", typeof(Texture2D)) as Texture2D;
 		
 
 		string filePath = Path.Combine(Application.temporaryCachePath, "shared img.png");
@@ -40,7 +35,7 @@ public class ShareScript : MonoBehaviour
 
 		// To avoid memory leaks
 		new NativeShare().AddFile(filePath)
-			.SetSubject("Colorines informa").SetText("Mira mi puntuación: " + scoreToShare +"puntos. ¿Capáz de Superarme? ¡Pruéba aquí!:").SetUrl("https://danielmontero.itch.io/colorines")
+			.SetSubject("Colorines info").SetText("Look at my score: " + scoreToShare +" points. Can you beat it? ¡try here!:").SetUrl("https://play.google.com/store/apps/details?id=com.DefaultCompany.COLORINES&hl=es&gl=US")
 			.SetCallback((result, shareTarget) => Debug.Log("Share result: " + result + ", selected app: " + shareTarget))
 			.Share();
 

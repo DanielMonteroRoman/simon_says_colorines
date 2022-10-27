@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class notification : MonoBehaviour
@@ -19,20 +17,13 @@ public class notification : MonoBehaviour
         _anim = GetComponent<Animator>();
 
         unlocker = GameObject.Find("UNLOCK MANAGER").GetComponent<Unlocker>();
-
-        
+               
     }
 
     private void OnEnable()
     {
         noti = unlocker.modeBut;
 
-        Debug.Log("LEVANTÁNDOME!!!");
-    }
-
-    private void Start()
-    {
-        
     }
 
     private void Update()
@@ -40,8 +31,7 @@ public class notification : MonoBehaviour
         if(noti == true)
         {
             NotificationOn();
-        }
-        
+        }        
     }
 
     public void NotificationOn()

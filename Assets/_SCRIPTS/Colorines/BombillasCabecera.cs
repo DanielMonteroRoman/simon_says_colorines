@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class BombillasCabecera : MonoBehaviour
@@ -14,15 +13,13 @@ public class BombillasCabecera : MonoBehaviour
     private void Awake()
     {
         _anim = GetComponent<Animator>();
-
         
     }
 
     private void OnEnable()
     {
         blocker = false;
-
-        Debug.Log("BLOCKER FALSE");
+                
     }
     private void Update()
     {

@@ -25,6 +25,10 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 26116869333159936
+    m_Key: privacy policy
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

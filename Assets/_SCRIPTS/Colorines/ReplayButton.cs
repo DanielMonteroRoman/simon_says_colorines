@@ -1,12 +1,10 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ReplayButton : MonoBehaviour
 {
    [SerializeField] UnityEngine.UI.Button menuButton;
-
-   
+       
 
     public void BotonDePlay()
     {

@@ -81,9 +81,9 @@ public class rebajasManager : MonoBehaviour
 
             string auxTimer = "";
 
-            auxTimer += (((int)segundosRestantes - ((int)segundosRestantes / 3600) * 3600) / 60).ToString() + ":";
+            auxTimer += (((int)segundosRestantes - ((int)segundosRestantes / 3600) * 3600) / 60).ToString("00") + ":";
 
-            auxTimer += (Mathf.CeilToInt(segundosRestantes % 60)).ToString();
+            auxTimer += (Mathf.CeilToInt(segundosRestantes % 60)).ToString("00");
 
             textTime.text = auxTimer;
         }
@@ -166,6 +166,7 @@ public class rebajasManager : MonoBehaviour
     {
         PlayerPrefs.DeleteKey(retencionName);
     }
+
 
 
 }

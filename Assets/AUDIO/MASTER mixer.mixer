@@ -87,7 +87,6 @@ AudioMixerController:
   m_MasterGroup: {fileID: 24300002}
   m_Snapshots:
   - {fileID: 24500006}
-  - {fileID: 6942246352061266204}
   m_StartSnapshot: {fileID: 24500006}
   m_SuspendThreshold: -80
   m_EnableSuspend: 1
@@ -96,7 +95,7 @@ AudioMixerController:
   - guid: 7eff04fef5c43a845b6491368b6922aa
     name: masterVolume
   - guid: 3134bc38b61dc0a418f304821668c94d
-    name: SFXVolume
+    name: sFXVolume
   - guid: 2b4ef20fc41c2184d866b4a8bab07643
     name: musicVolume
   m_AudioMixerGroupViews:
@@ -167,7 +166,7 @@ AudioMixerSnapshotController:
     23c72e6893578ee4dbd9a5c995f23b86: 9.35
     afa57ec9ac5499d4480d21a669a11a9a: 12
     85282bfb45fb3784b8bdd8b4df95c78a: 0.143
-    7a4a14dda6eabb349bbdb291b39e80a6: -36.4
+    7a4a14dda6eabb349bbdb291b39e80a6: -30
     7eff04fef5c43a845b6491368b6922aa: 3.2656884
     2b4ef20fc41c2184d866b4a8bab07643: -10.345207
     233b623f475cd4c4ea7b9a014a2ef588: 1.155
@@ -186,36 +185,6 @@ AudioMixerEffectController:
   m_SendTarget: {fileID: -416580826138431306}
   m_EnableWetMix: 0
   m_Bypass: 0
---- !u!245 &6942246352061266204
-AudioMixerSnapshotController:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: mute
-  m_AudioMixer: {fileID: 24100000}
-  m_SnapshotID: 4a00da4557437e942acc02893d6b5613
-  m_FloatValues:
-    e196b26180b009447a18e711f57421e2: 2.5
-    bdf5f602103289744afe38bcb47fcbbe: 5.7
-    be27396228626f241b9941f846f6acb8: 0.2
-    4d6d70b2cb8dbe540bf08e0852bee644: 0.1
-    7104fca331c6f3c4ea001d26c0fd94f1: 5000
-    8f0a4a25cd41b4d4494b027736d376c0: 1.365
-    145c7e95917a072478bb8e034bd6e42b: -10
-    78c277b60fc4f2142925b1d50068b749: 0
-    a4f1afb6f4beb80478bd76a30a3f1304: 0.1
-    e777f077c96c11e42b3f05937ea55a63: 0
-    15ad3d0860400f94c82151febfd88730: 1217
-    3134bc38b61dc0a418f304821668c94d: -38.807793
-    23c72e6893578ee4dbd9a5c995f23b86: 9.35
-    afa57ec9ac5499d4480d21a669a11a9a: 12
-    85282bfb45fb3784b8bdd8b4df95c78a: 0.143
-    7a4a14dda6eabb349bbdb291b39e80a6: -36.4
-    7eff04fef5c43a845b6491368b6922aa: -80
-    2b4ef20fc41c2184d866b4a8bab07643: -10.345207
-    233b623f475cd4c4ea7b9a014a2ef588: 1.155
-  m_TransitionOverrides: {}
 --- !u!243 &8860917557755886429
 AudioMixerGroupController:
   m_ObjectHideFlags: 0

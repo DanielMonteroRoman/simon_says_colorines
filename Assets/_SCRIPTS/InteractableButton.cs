@@ -18,7 +18,6 @@ public class InteractableButton : MonoBehaviour
     {
         StartCoroutine(InactiveButton(time));
 
-
     }
 
     IEnumerator InactiveButton (float seconds)

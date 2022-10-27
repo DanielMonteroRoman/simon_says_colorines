@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class GameOVerPanelDetection : MonoBehaviour
@@ -18,9 +17,7 @@ public class GameOVerPanelDetection : MonoBehaviour
         gameManager = GameObject.Find("GAME MANAGER").GetComponent<GameManager>();
 
         _anim = GetComponent<Animator>();
-    }
-
-    
+    }    
 
     IEnumerator BackToMenu()
     {

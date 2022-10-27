@@ -54,5 +54,17 @@ MonoBehaviour:
     m_Localized: Tienda
     m_Metadata:
       m_Items: []
+  - m_Id: 25789733506355200
+    m_Localized: "CONTIN\xDAE..."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30187470750453760
+    m_Localized: "Actualizaci\xF3n disponible"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30461828089745408
+    m_Localized: Sin publi
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

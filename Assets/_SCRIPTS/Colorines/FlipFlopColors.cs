@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class FlipFlopColors : MonoBehaviour
@@ -12,7 +10,7 @@ public class FlipFlopColors : MonoBehaviour
     {
         if (change)
         {
-            Debug.Log("Has apretado");
+           
             ChangePositions(GO1, GO2);
         }
     }

@@ -19,11 +19,16 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 93084160000
-    m_Localized: "Dise\xF1o, programaci\xF3n y gr\xE1ficos.\n\nDise\xF1o.\n\nM\xFAsica.\n\n"
+    m_Localized: "Dise\xF1o, programaci\xF3n y gr\xE1ficos.\n\nDise\xF1o.\n\n\n\n"
     m_Metadata:
       m_Items: []
   - m_Id: 1081725220261888
-    m_Localized: "Algunos efectos de sonido:\n\nAlgunas im\xE1genes de fondo:"
+    m_Localized: "Algunos efectos de sonido:\n\nAlgunas im\xE1genes de fondo:\n\nM\xFAsica
+      obtenida en:"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 26116869333159936
+    m_Localized: "pol\xEDtica de privacidad"
     m_Metadata:
       m_Items: []
   references:

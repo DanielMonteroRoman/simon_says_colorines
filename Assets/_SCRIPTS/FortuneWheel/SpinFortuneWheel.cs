@@ -1,7 +1,5 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using TMPro;
 
 public class SpinFortuneWheel : MonoBehaviour
@@ -19,15 +17,21 @@ public class SpinFortuneWheel : MonoBehaviour
     ActivadorPremio activaPremio;
 
     [SerializeField] GameObject blockPanel;
+    [SerializeField] GameObject blockButtonPanel;
     [SerializeField] UnityEngine.UI.Button menuButton;
 
     RepartePremios repartePremios;
+
+    AudioSource _aSource;
+    [SerializeField] AudioClip click;
 
     private void Awake()
     {
         activaPremio = GetComponent<ActivadorPremio>();
         repartePremios = GameObject.Find("EXTRAS MANAGER").
             GetComponent<RepartePremios>();
+
+        _aSource = gameObject.GetComponent<AudioSource>();
     }
 
     private void Start()
@@ -72,6 +76,8 @@ public class SpinFortuneWheel : MonoBehaviour
             /*if (i > Mathf.RoundToInt(randVal * 0.95f))
                 timeInterval = 3f * Time.deltaTime;*/
 
+            _aSource.PlayOneShot(click,0.5f);
+
             yield return new WaitForSecondsRealtime(timeInterval);
         }
 
@@ -100,6 +106,7 @@ public class SpinFortuneWheel : MonoBehaviour
     {
         yield return new WaitForSecondsRealtime(1);
         blockPanel.SetActive(false);
+        blockButtonPanel.SetActive(false);
         menuButton.interactable = true;
     }
 

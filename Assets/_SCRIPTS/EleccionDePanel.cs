@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EleccionDePanel : MonoBehaviour
@@ -8,7 +6,6 @@ public class EleccionDePanel : MonoBehaviour
     
     MoneyManager _moneyMan;
     
-
     private void Awake()
     {
         _moneyMan=GameObject.Find("EXTRAS MANAGER").

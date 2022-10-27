@@ -1,7 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
+
 
 public class RevisarBonus : MonoBehaviour
 {
@@ -21,6 +20,9 @@ public class RevisarBonus : MonoBehaviour
     [SerializeField] int price;
 
     [SerializeField] UnityEngine.UI.Button shopButton;
+
+    [SerializeField] GameObject revisarImage;
+    [SerializeField] GameObject prohibidoImage;
 
     private void Awake()
     {
@@ -68,12 +70,9 @@ public class RevisarBonus : MonoBehaviour
 
             DesactivateRevButton();
             ActivateCanvasStars(numberOfBonus);
-        }
-        else  if (gameMan.turn == GameManager.Turn.Computer)
-        {
-            
-        }
-        
+
+            revisarImage.SetActive(true);
+        }      
 
     }
 
@@ -92,13 +91,15 @@ public class RevisarBonus : MonoBehaviour
         }
         else
         {
-            //Activar mensaje de no hay dinero /Ad
+            prohibidoImage.GetComponent<Animator>().SetTrigger("activa");
         }
     }
 
     /// <summary>
     /// Añade el bonus sin gastar dinero, activado por la ruleta de la fortuna
     /// </summary>
+    /// 
+    [ContextMenu("activar")]
     public void AddBonusForFree()
     {
         if (numberOfBonus < 3 )
@@ -108,6 +109,10 @@ public class RevisarBonus : MonoBehaviour
             ActivateCanvasStars(numberOfBonus);
 
             AddStar();    //TODO: meter una animación         
+        }
+        else
+        {
+            StartCoroutine(ProhibidoSignal());            
         }
     }
 
@@ -172,10 +177,21 @@ public class RevisarBonus : MonoBehaviour
                 canvStar2.SetActive(true);
                 canvStar3.SetActive(true);
                 break;
-        }
-
-        Debug.Log("CHEQUEANDO ESTRELLAS");
+        }       
         
+    }
+
+
+    
+    IEnumerator ProhibidoSignal()
+    {
+        prohibidoImage.GetComponent<Animator>().SetTrigger("activa");
+        yield return new WaitForSecondsRealtime(1);
+        prohibidoImage.GetComponent<Animator>().SetTrigger("activa");
+        yield return new WaitForSecondsRealtime(1);
+        prohibidoImage.GetComponent<Animator>().SetTrigger("activa");
+        yield return new WaitForSecondsRealtime(1);
+        prohibidoImage.GetComponent<Animator>().SetTrigger("activa");
     }
 }
 

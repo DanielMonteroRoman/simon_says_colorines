@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,11 +7,7 @@ public class backgrowndSelection : MonoBehaviour
 
     [SerializeField] List<GameObject> backgroundList;
 
-    private void Awake()
-    {
-        
-    }
-
+    
     public void SelectBackgroundRight()
     {
         LoadIndex();

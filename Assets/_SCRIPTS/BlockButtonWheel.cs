@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-using System;
 
 public class BlockButtonWheel : MonoBehaviour
 {
@@ -23,8 +20,8 @@ public class BlockButtonWheel : MonoBehaviour
         _timerWheel=GetComponent<Timer>();
     }
     private void Start()
-    {    
-
+    {
+        if (_timerWheel.isFinished) tries = 0; SaveTries(tries);
         tries = PlayerPrefs.GetInt("try", 0);
         UpdateText();
 
@@ -37,10 +34,14 @@ public class BlockButtonWheel : MonoBehaviour
         if (_timerWheel.isFinished && wheelButt.interactable == false)
         {
             tries = 0;
-            
+            SaveTries(tries);
             UpdateText();
             wheelButt.interactable = true;          
            
+        }
+        if(tries == allowedTries && wheelButt.interactable)
+        {
+            wheelButt.interactable = false;
         }
         
         
@@ -55,11 +56,7 @@ public class BlockButtonWheel : MonoBehaviour
         SaveTries(tries);
         UpdateText();
 
-        if (tries == allowedTries && wheelButt.interactable)
-        {
-            wheelButt.interactable = false;
-            
-        }
+       
         if (tries == 1)
         {
              _timerWheel.IniciarTimer();

@@ -54,5 +54,17 @@ MonoBehaviour:
     m_Localized: Boutique
     m_Metadata:
       m_Items: []
+  - m_Id: 25789733506355200
+    m_Localized: CONTINUEZ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30187470750453760
+    m_Localized: Actualisation disponible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30461828089745408
+    m_Localized: Sans publi
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

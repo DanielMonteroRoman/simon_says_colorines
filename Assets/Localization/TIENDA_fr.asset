@@ -23,7 +23,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 835849261056
-    m_Localized: 'ACHAT DE '
+    m_Localized: ACHAT DE BONUS
     m_Metadata:
       m_Items: []
   - m_Id: 3884344905728
@@ -31,7 +31,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4078553763840
-    m_Localized: ROULE
+    m_Localized: TOURNEZ
     m_Metadata:
       m_Items: []
   - m_Id: 11731439616
@@ -40,13 +40,13 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 4933382279168
-    m_Localized: "Si vous ratez, r\xE9cup\xE9rez votre partie l\xE0 o\xF9 vous avez
-      \xE9chou\xE9... une seule fois."
+    m_Localized: "Si vous ratez, reprenez votre partie l\xE0 o\xF9 vous avez \xE9chou\xE9...
+      une seule fois."
     m_Metadata:
       m_Items: []
   - m_Id: 5744917188608
     m_Localized: "Pendant 6 min, vous aurez besoin de moins de points afin de d\xE9verouiller
-      les options de jeu. Acumulatifs!"
+      les options de jeu. En illimit\xE9!"
     m_Metadata:
       m_Items: []
   - m_Id: 11431739101184

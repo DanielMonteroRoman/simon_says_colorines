@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 12230561792
-    m_Localized: "Classement g\xE9n\xE9ral"
+    m_Localized: 'Classement '
     m_Metadata:
       m_Items: []
   - m_Id: 8547962880
@@ -27,11 +27,11 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 16714272768
-    m_Localized: "Normal\nInvers\xE9\nAveugle\nInv + auve"
+    m_Localized: "Normal\nInvers\xE9\nAveugle\nInv + aveu"
     m_Metadata:
       m_Items: []
   - m_Id: 2058463711232
-    m_Localized: Historique des points
+    m_Localized: HISTORIQUE DES POINTS
     m_Metadata:
       m_Items: []
   - m_Id: 2657783615488
@@ -41,6 +41,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 4751420788736
     m_Localized: Avec Flip-Flop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18866231863906304
+    m_Localized: hebdomadaire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23609724687585280
+    m_Localized: HEBDOMADAIRE
     m_Metadata:
       m_Items: []
   references:

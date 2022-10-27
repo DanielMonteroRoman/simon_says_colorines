@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class RobaDinero : MonoBehaviour
@@ -27,7 +26,6 @@ public class RobaDinero : MonoBehaviour
     {
         _rTransf.position = initialPos;
         StartCoroutine(Motion());
-
         
     }
 

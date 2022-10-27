@@ -43,6 +43,14 @@ MonoBehaviour:
 '
     m_Metadata:
       m_Items: []
+  - m_Id: 18866231863906304
+    m_Key: New Entry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23609724687585280
+    m_Key: "semanal may\xFAsculas\n"
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

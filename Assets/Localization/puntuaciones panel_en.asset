@@ -19,7 +19,7 @@ MonoBehaviour:
     m_Items: []
   m_TableData:
   - m_Id: 12230561792
-    m_Localized: Overall ranking
+    m_Localized: ranking
     m_Metadata:
       m_Items: []
   - m_Id: 8547962880
@@ -37,7 +37,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 2058463711232
-    m_Localized: Scores
+    m_Localized: OVERALL SCORES
     m_Metadata:
       m_Items: []
   - m_Id: 2657783615488
@@ -47,6 +47,14 @@ MonoBehaviour:
       m_Items: []
   - m_Id: 4751420788736
     m_Localized: With Flip-Flop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 18866231863906304
+    m_Localized: weekly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 23609724687585280
+    m_Localized: WEEKLY
     m_Metadata:
       m_Items: []
   references:
