@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 216933568512
-    m_Localized: '''simon'' style memory game'
+    m_Localized: 'Simon Says:'
     m_Metadata:
       m_Items: []
   - m_Id: 286198304768
@@ -63,8 +63,9 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 30461828089745408
-    m_Localized: Ad-Free
+    m_Localized: Ads-Free
     m_Metadata:
       m_Items: []
   references:
-    version: 1
+    version: 2
+    RefIds: []

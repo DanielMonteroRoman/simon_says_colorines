@@ -29,15 +29,19 @@ public class SoundControler : MonoBehaviour
 
     private void Start()
     {
-        musicVolume.value = PlayerPrefs.GetFloat("MusicVolume", 0.3f);
-        SFXVolume.value = PlayerPrefs.GetFloat("SFXVolume", 0.7f);
+        musicVolume.value = 1;
+        SFXVolume.value = 1;
 
-        initialVolumeValue = PlayerPrefs.GetFloat("MusicVolume", 0.3f);
-        initialSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 0.7f);
+
+        //musicVolume.value = PlayerPrefs.GetFloat("MusicVolume", 0.3f);
+        //SFXVolume.value = PlayerPrefs.GetFloat("SFXVolume", 0.7f);
+
+        //initialVolumeValue = PlayerPrefs.GetFloat("MusicVolume", 0.3f);
+        //initialSFXVolume = PlayerPrefs.GetFloat("SFXVolume", 0.7f);
 
        
-        SetMusicVolume(initialVolumeValue);
-        SetFXVolume(initialSFXVolume);
+        //SetMusicVolume(initialVolumeValue);
+        //SetFXVolume(initialSFXVolume);
 
     }
 

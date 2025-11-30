@@ -23,78 +23,91 @@ MonoBehaviour:
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9ebf2ffa54e0f31498ef010682f0212c
     m_Address: Game_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c2dbe5db76f98764890225ad5d779f95
     m_Address: options panel_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1971b13b128878c48bcf7deb29fb6746
     m_Address: Montero Games_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: f8fcec270f37b854fa2a600242535dc2
     m_Address: BIG PANEL_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9da2064d60cbcdc419fdd2b5baa12eee
     m_Address: INFO PANEL_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9694417985aff664b939ef3878cfd784
     m_Address: puntuaciones panel_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 0b18a499bdf681345adffffbe6bd2be6
     m_Address: TIENDA_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c4def68a1d71d374cbf525b896eea946
     m_Address: Sure_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d3f0e665dec261c4ea9919f9e933223b
     m_Address: wheel_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5e134a3b0546f2d498e547c8de5caed0
     m_Address: Username_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 09db6932130100449bcdea6c8d100f65
     m_Address: Rate us panel_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: eb4ebbaa2fc30644989f95ed4701fef8
     m_Address: Ad-Free Pop Up_es
     m_ReadOnly: 1
     m_SerializedLabels:
     - Locale-es
     - Preload
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 0f237cd14b2b87349ad31195e5fc2156, type: 2}
   m_SchemaSet:

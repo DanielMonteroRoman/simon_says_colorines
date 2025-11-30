@@ -27,7 +27,7 @@ MonoBehaviour:
     m_Metadata:
       m_Items: []
   - m_Id: 216933568512
-    m_Localized: "joc de mem\xF2ria estil \"simon\""
+    m_Localized: 'Simon Says:'
     m_Metadata:
       m_Items: []
   - m_Id: 286198304768

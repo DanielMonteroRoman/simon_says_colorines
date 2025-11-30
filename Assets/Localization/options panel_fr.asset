@@ -50,5 +50,9 @@ MonoBehaviour:
     m_Localized: Modes de jeu
     m_Metadata:
       m_Items: []
+  - m_Id: 221777735591104512
+    m_Localized: Vouz pouverz voir votre score et votre classement ici.
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

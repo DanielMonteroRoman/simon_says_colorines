@@ -50,5 +50,9 @@ MonoBehaviour:
     m_Localized: Modes de joc
     m_Metadata:
       m_Items: []
+  - m_Id: 221777735591104512
+    m_Localized: "Pots veure la teua puntuaci\xF3 i el ranking ac\xED."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1

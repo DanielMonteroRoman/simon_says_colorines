@@ -15,7 +15,7 @@ public class RepartePremios : MonoBehaviour
         _extraLive = GetComponent<ExtraLiveBonus>();
         _revisarBonus = GetComponent<RevisarBonus>();
 
-       // interstitialAdsButton = GameObject.Find("ADS MANAGER").GetComponent<InterstitialAdsButton>();
+       interstitialAdsButton = GameObject.Find("ADS MANAGER").GetComponent<InterstitialAdsButton>();
     }
 
     
@@ -104,7 +104,7 @@ public class RepartePremios : MonoBehaviour
 
     IEnumerator AnuncioCorr()
     {
-        yield return new WaitForSecondsRealtime(2);
+        yield return new WaitForSecondsRealtime(1.5f);
         interstitialAdsButton.ShowAd();
     }
 

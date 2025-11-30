@@ -18,15 +18,19 @@ public class BlockButtonWheel : MonoBehaviour
     private void Awake()
     {
         _timerWheel=GetComponent<Timer>();
+
+        tries = PlayerPrefs.GetInt("try", 0);
     }
     private void Start()
     {
         if (_timerWheel.isFinished) tries = 0; SaveTries(tries);
-        tries = PlayerPrefs.GetInt("try", 0);
+        
         UpdateText();
 
         if(tries == allowedTries) wheelButt.interactable = false;
         else wheelButt.interactable = true;
+
+        
     }
     private void Update()
     {

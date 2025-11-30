@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5be51871efa6c3e4eae1703925c8f5ac, type: 3}
+  m_Name: Ad-Free Pop Up
+  m_EditorClassIdentifier: 
+  m_SharedTableData: {fileID: 11400000, guid: 2ac5192ef85d3d949a9330d430234cc8, type: 2}
+  m_Tables:
+  - {fileID: 11400000, guid: 69b03505101dd69479e258d014dc52fb, type: 2}
+  - {fileID: 11400000, guid: b9576b5500f6824459061bcc274f400a, type: 2}
+  - {fileID: 11400000, guid: 680a1297b413b2444a7e24832a27495f, type: 2}
+  - {fileID: 11400000, guid: eb4ebbaa2fc30644989f95ed4701fef8, type: 2}
+  m_Extensions: []
+  m_Group: String Table
+  references:
+    version: 1

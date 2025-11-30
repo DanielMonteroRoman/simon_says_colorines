@@ -21,62 +21,77 @@ MonoBehaviour:
     m_Address: Assets/Localization/botones Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: cfb3e68ee9e194640a8bb1b97a8090f3
     m_Address: Assets/Localization/Game Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 1224f8ef275ecc141aacf56eab2b8e14
     m_Address: Assets/Localization/options panel Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9a8b88e38ac548847884f7377a8af90d
     m_Address: Assets/Localization/Montero Games Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9e69eaa5f9e34da40a29eb18afaf0543
     m_Address: Assets/Localization/BIG PANEL Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3c368d9f5e238664b996a20a6bb76f90
     m_Address: Assets/Localization/INFO PANEL Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: c188688c7e2488746a1f48d199bd8380
     m_Address: Assets/Localization/IMAGEN TUTO Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 18616998c95617c4aa0822242583f086
     m_Address: Assets/Localization/flags Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 9c9f5e2e78b986b45adc39ea79a11a5f
     m_Address: Assets/Localization/puntuaciones panel Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 5d4d217654be51840a60671937a7cb0c
     m_Address: Assets/Localization/TIENDA Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 3b18c8b33b2fc65428fd95078c0969a5
     m_Address: Assets/Localization/Sure Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7bf5e0b3c5232534794fd8afa8c3b84b
     m_Address: Assets/Localization/wheel Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: d393ac7a38646e648a2d1db2cba80353
     m_Address: Assets/Localization/New Table Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 7bfe2edf680180a47bb456d45a95b63c
     m_Address: Assets/Localization/Rate us panel Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   - m_GUID: 2ac5192ef85d3d949a9330d430234cc8
     m_Address: Assets/Localization/Ad-Free Pop Up Shared Data.asset
     m_ReadOnly: 1
     m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 1
   m_Settings: {fileID: 11400000, guid: 0f237cd14b2b87349ad31195e5fc2156, type: 2}
   m_SchemaSet:

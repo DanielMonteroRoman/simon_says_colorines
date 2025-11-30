@@ -51,6 +51,10 @@ MonoBehaviour:
     m_Key: modos de juego
     m_Metadata:
       m_Items: []
+  - m_Id: 221777735591104512
+    m_Key: panel look your score.
+    m_Metadata:
+      m_Items: []
   m_Metadata:
     m_Items: []
   m_KeyGenerator:

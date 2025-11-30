@@ -65,12 +65,12 @@ public class SpinFortuneWheel : MonoBehaviour
 
             if (i > Mathf.RoundToInt(randVal * 0.25f))
                 timeInterval = 0.5f * Time.deltaTime;
-            if (i > Mathf.RoundToInt(randVal * 0.5f))
+            /*if (i > Mathf.RoundToInt(randVal * 0.5f))
                 timeInterval = 1f * Time.deltaTime;
             if (i > Mathf.RoundToInt(randVal * 0.7f))
                 timeInterval = 1.5f * Time.deltaTime;
             if (i > Mathf.RoundToInt(randVal * 0.8f))
-                timeInterval = 2f * Time.deltaTime;
+                timeInterval = 2f * Time.deltaTime;*/
             if (i > Mathf.RoundToInt(randVal * 0.9f))
                 timeInterval = 2.5f * Time.deltaTime;
             /*if (i > Mathf.RoundToInt(randVal * 0.95f))

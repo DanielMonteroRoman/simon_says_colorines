@@ -50,5 +50,9 @@ MonoBehaviour:
     m_Localized: Modos de juego
     m_Metadata:
       m_Items: []
+  - m_Id: 221777735591104512
+    m_Localized: "Puedes ver tu puntuaci\xF3n en el ranking aqu\xED."
+    m_Metadata:
+      m_Items: []
   references:
     version: 1
