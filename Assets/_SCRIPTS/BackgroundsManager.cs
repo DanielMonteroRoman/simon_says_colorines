@@ -9,9 +9,14 @@ public class BackgroundsManager : MonoBehaviour
 
     [SerializeField] GameObject optionsPanel;
 
+    private void Start()
+    {
+       
+        BackgrowndSelection();
+    }
     public void BackgrowndSelection()
     {
-        index = optionsPanel.GetComponent<backgrowndSelection>().index;
+        index = PlayerPrefs.GetInt("backgroundIndex", 0);
 
         foreach (GameObject go in backgrownds)
         {

@@ -1,0 +1,5 @@
+D:/Unity projects/Simon Says Colorines LT/.utmp/RelWithDebInfo/5y2j6z66/arm64-v8a/CMakeFiles/edit_cache.dir
+D:/Unity projects/Simon Says Colorines LT/.utmp/RelWithDebInfo/5y2j6z66/arm64-v8a/CMakeFiles/rebuild_cache.dir
+D:/Unity projects/Simon Says Colorines LT/.utmp/RelWithDebInfo/5y2j6z66/arm64-v8a/FramePacing/CMakeFiles/swappywrapper.dir
+D:/Unity projects/Simon Says Colorines LT/.utmp/RelWithDebInfo/5y2j6z66/arm64-v8a/FramePacing/CMakeFiles/edit_cache.dir
+D:/Unity projects/Simon Says Colorines LT/.utmp/RelWithDebInfo/5y2j6z66/arm64-v8a/FramePacing/CMakeFiles/rebuild_cache.dir

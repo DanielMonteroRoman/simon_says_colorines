@@ -7,7 +7,16 @@ public class backgrowndSelection : MonoBehaviour
 
     [SerializeField] List<GameObject> backgroundList;
 
-    
+    private void Start()
+    {
+        LoadIndex();
+        foreach (var item in backgroundList)
+        {
+            item.SetActive(false);
+        }
+        backgroundList[index].SetActive(true);
+    }
+
     public void SelectBackgroundRight()
     {
         LoadIndex();
@@ -30,7 +39,7 @@ public class backgrowndSelection : MonoBehaviour
 
     public void SelectBackgroundLeft()
     {
-        LoadIndex();
+        
 
         if (index > 0)
         {
@@ -58,6 +67,7 @@ public class backgrowndSelection : MonoBehaviour
 
     void LoadIndex()
     {
+       
         index = PlayerPrefs.GetInt("backgroundIndex", 0);
     }
 }
