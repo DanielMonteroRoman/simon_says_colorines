@@ -19,7 +19,7 @@ public class backgrowndSelection : MonoBehaviour
 
     public void SelectBackgroundRight()
     {
-        LoadIndex();
+       
 
         if (index < backgroundList.Count - 1)
         {
@@ -59,7 +59,7 @@ public class backgrowndSelection : MonoBehaviour
 
     }
 
-    void SaveIndex() //por alguna razón no se salva
+    void SaveIndex() 
     {
         PlayerPrefs.SetInt("backgroundIndex", index);
 
